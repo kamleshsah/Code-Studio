@@ -1,0 +1,10 @@
+'''
+https://www.codingninjas.com/codestudio/contests/codestudio-weekend-contest-14/problems/15575
+'''
+def goodArray(n: int, arr: List[int]) -> int:
+    # Write your code here.
+    cnt=1
+    for i in range(n):
+        if cnt==arr[i]:
+            cnt+=1
+    return cnt-1
